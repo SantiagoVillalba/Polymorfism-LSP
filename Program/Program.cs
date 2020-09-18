@@ -16,6 +16,7 @@ namespace LSP
             RaiseSevereEvent("Heart rate is below 60");
         }
 
+        
         private static void RaiseInformationEvent(string eventName)
         {
             // Usamos el nombre "_event" porque "event" es una keyword.
